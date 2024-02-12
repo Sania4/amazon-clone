@@ -169,3 +169,37 @@ span{
     color: #007185;
     text-decoration: none;
 }
+
+/* Card-section */
+
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(152, 236, 237, 0.589);
+}
+
+.card{
+    /* border: 1px solid black; */
+    height: 450px;
+    width: 320px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.card-img{
+    height: 350px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.card-content p{
+    color: #007185;
+}
