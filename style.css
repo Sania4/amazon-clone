@@ -158,11 +158,11 @@ span{
     width: 90%;
     background-color: #f5f6f6;
     color: #0f1111;
-    font-size: 14px;
+    font-size: 17px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .main-panel a{
@@ -181,16 +181,17 @@ span{
 
 .card{
     /* border: 1px solid black; */
-    height: 450px;
-    width: 320px;
+    height: 400px;
+    width: 350px;
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 15px;
 }
 
 .card-img{
-    height: 350px;
-    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -198,8 +199,61 @@ span{
 .card-content{
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 1rem;
 }
 
 .card-content p{
     color: #007185;
+}
+
+/* Footer */
+
+.footer-one{
+    height: 20px;
+    background-color: #37475a;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding: 17px;
+}
+
+.footer-two{
+    height: 450px;
+    background-color: #222f3d;
+    color: white;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-two li{
+    color: #dddddd;
+    list-style-type: none;
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.footer-three{
+    height: 50px;
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.footer-four{
+    height: 40px;
+    background-color: #0f1111;
+    color: white;
+    font-size: 15px;
+    text-align: center;
 }
